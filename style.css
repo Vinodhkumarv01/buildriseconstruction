@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 520px;
+}
+ul li{
+    padding: 15px;
+    margin-top: 15px;
+}
+ul li:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(161, 161, 161);
+    border-radius: 10px;
+    transform: scale(1.1,1.1);
+}
+header{
+    padding: 15px;
+    width: 97.8%;
+    height: 10%;
+    display: flex;
+    color: white;
+    background: linear-gradient(black,white);
+}
+.headalign{
+    text-align: left;
+}
+.headalign h1{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1::first-letter{
+    color: red;
+    font-size: 40px;
+    padding-left: 62px;
+}
+.headalign p{
+    position: absolute;
+    display: inline;
+    font-size: 100px;
+    color: red;
+    top: -5px;
+
+}
+.headalign h2{
+    padding-left:65px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -10px;
+}
+.marquee1:hover{
+    transform: scale(2,2);
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 0px 5px rgb(14, 13, 13);
+    letter-spacing: 1.5x;
+}
+.hero{
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 10px;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid gray;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px gray;
+}
+.hero .video1{
+    margin: 35px;
+}
+.hero:hover .call{
+    display: none;
+    
+}
+iframe{
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 5px rgb(97, 91, 91);
+}
+iframe:hover {
+    border-radius: 0;
+    transition: 0.5s;
+    transform: scale(1.5,1.5);
+}
+.projects img{
+    padding: 10px;
+    opacity: 50%;
+    border-radius: 30px;
+}
+.projects img:hover{
+    transition: 0.8s;
+    transform: scale(2.2);
+    opacity: 100%;
+}
+.projects{
+    margin: 25px;
+}
+.location p{
+    position: absolute;
+    font-size: 15px;
+    color: black;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.para1{
+    top: 83.5%;
+    left: 0;
+    margin-left: 84px;
+    cursor: pointer;
+}
+.para2{
+    top: 83.5%;
+    left: 0;
+    margin-left: 22.5%;
+    cursor: pointer;
+}
+.para1:hover,.para2:hover,.para3:hover,.para4:hover,.para5:hover,.para6:hover{
+    transform: scale(1.2,1.2);
+}
+a{
+color: black;
+text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+.para3{
+    top: 83.5%;
+    left: 0;
+    margin-left: 39.8%;
+    cursor: pointer;
+}
+.para4{
+    top: 83.5%;
+    left: 0;
+    margin-left: 56.9%;
+    cursor: pointer;
+}
+.para5{
+    top: 83.5%;
+    left: 0;
+    margin-left: 72.8%;
+    cursor: pointer;
+}
+.para6{
+    top: 83.5%;
+    left: 0;
+    margin-left: 90.2%;
+    cursor: pointer;
+}
+.location{
+    display: flex;
+}
+.location div{
+    /* border-bottom: 1px solid black;
+    box-shadow: 0px 2px 20px gray; */
+    padding: 10px;
+    margin-left: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.branch1 .subchennai,.subcbe,.Australia{
+    position: absolute;
+    width: 1250px;
+    margin-top: 10%;
+    padding-top: 25px;
+    left: 0;
+    background: transparent;
+    display: none;
+}
+.subchennai  span{
+    font-size: 15px;
+}
+.branch1 img{
+    border-radius: 30px 0px;
+}
+.branch1:hover .subchennai{
+    display: inline;
+}
+.branch1:hover .subcbe{
+    display: inline;
+    margin-top: 11.5%;
+    font-size: 15px;
+}
+.branch1:hover .Australia{
+    display: inline;
+    margin-top: 11.5%;
+    font-size: 15px;
+}
+.services{
+    position: absolute;
+    top: 94%;
+    left: 0px;
+    display: flex;
+    
+}
+.services1 img{
+    border-radius: 20px;
+
+}
+.span4, .span5, .span6, .span7{
+    padding-left: 50px;
+    z-index: -1;
+}
+.h01{
+    font-size: 20px;
+    font-weight: bolder;
+    color: red;
+}
+.p1{
+    font-weight: bolder;
+}
+.location:hover .services{
+    display: none;
+}
+.logo{
+    z-index: -1;
+}
+
+center{
+    border: 1px solid black;
+    border-radius: 12px;
+    /* opacity: 50%; */
+    opacity: 50%;
+    z-index: -10;
+}
+.span2{
+    padding-left: 50px;
+}
+.span3{
+    padding-left: 50px;
+}
+.type{
+    width: 1250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.type img{
+   margin-left: 23%;
+}
+.type img:hover{
+    transform: scale(0.9,0.9);
+}
+.type2{
+    text-indent: 50px;
+    padding-top: 20px;
+}
+.type1{
+    padding: 10px 0px;
+    padding-left: 2%;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: greenyellow;
+}
+.type3{
+    text-indent: 50px;
+    padding-top: 10px;
+}
+
+form{
+    margin-left: 14%;
+    text-align: left;
+    width: 97.5%
+    
+}
+.div_color{
+    background-color: rgb(219, 218, 218);
+    width: 97.5%;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+
+}
+.input1{
+    width: 910px;
+    height: 30px;
+}
+.input2{
+    width: 918px;
+    height: 40px;
+    font-size: larger;
+    background-color: rgb(175, 163, 243);
+}
+label{
+    font-size: large;
+}
+.align1{
+    margin-left: 27%;
+    margin-bottom: 2%;
+}
+
+.call{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 0;
+    margin-top: 178px;
+    margin-left: 1.8%;
+    box-shadow: 0px 2px 20px 20px rgb(73, 72, 72);
+}
+.call h1{
+    margin-left: -50px;
+    padding-bottom: 20px;
+}
+.call1{
+    color: black;
+    padding-bottom: 10px;
+}
+.certification1 b{
+    font-size: 30px;
+}
+.certification1 p{
+    color: rgb(39, 38, 38);
+    margin-bottom: -10px;
+    margin-top: -10px;
+    font-size: 15px;
+}
+.certification1{
+    padding: 50px;
+    width: 500px;
+}
+.certification{
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    margin: 50px;
+}
+.certification img{
+    margin-left: 8%;
+    padding: 50px;
+}
+.certification img:hover{
+    transform: scale(1.2,1.2);
+    transition: 1s;
+}
+.clients{
+    margin: 15px;
+    margin-top: 50px;
+    padding: 50px;
+    padding-left: 7%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.clients img{
+    padding-left: 10px;
+    border-radius: 20px;
+}
+.socialmedia img{
+    padding-left: 1px;
+    margin: -10px;
+}
+.socialmedia{
+    position: absolute;
+    display: flex;
+    margin-left: 10px;
+}
+
+
+
+
+
+
